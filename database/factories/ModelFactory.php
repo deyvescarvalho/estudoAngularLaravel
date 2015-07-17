@@ -29,12 +29,3 @@ $factory->define(CodeProject\Client::class, function ($faker) {
         'obs' => $faker->sentence,
     ];
 });
-
-$factory->define(CodeProject\ClientTeste::class, function ($faker) {
-    return [
-        'nome' => $faker->name,
-        'phone' => $faker->phoneNumber,
-        'endereco' => $faker->address,
-        'idade' => $faker->phoneNumber
-    ];
-});
